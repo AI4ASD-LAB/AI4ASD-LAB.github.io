@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: FAST Lab
+title: AI4ASD Lab
 baseURL: 'https://AI4ASD-LAB.github.io/' # Website URL
 
 ############################
