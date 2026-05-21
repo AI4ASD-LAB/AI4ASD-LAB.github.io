@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Tiancheng Lai 赖天成
+title: Xiaoyue Ma 马晓月
 
 # Full Name (for SEO)
-first_name: Tiancheng
-last_name: Lai
+first_name: Xiaoyue
+last_name: Ma
 
 # Is this the primary user of the site?
 superuser: false
@@ -13,23 +13,19 @@ superuser: false
 role: Master
 # Organizations/Affiliations
 organizations:
-  - name: Zhejiang University
-    url: 'https://www.zju.edu.cn/english/'
+  - name: Zhejiang Normal University
+    url: 'https://www.zjnu.edu.cn/english/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests focus on Motion Planning, Autonomous Exploration, etc.
+bio: My research interests focus on Screening for Autism in Children and Behavioral Recognition, etc.
 
 interests:
-  - Motion planning
-  - Autonomous Exploration
-  - Novel Robot Platforms
+  - Autism in Children
+  - Behavioral Recognition
 
 education:
   courses:
-    - course: MEng in Automation
-      institution: Zhejiang University
-    - course: BEng in Automation
-      institution: Harbin Institute of Technology, Shenzhen
+  
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
