@@ -1,7 +1,7 @@
 ---
-title: "FAST-FIRE@IROS2025"
+title: "面向孤独症儿童的多角色动画生成方法"
 subtitle:
-date: 2025-10-29
+date: 2026-2-27
 image:
   focal_point: 'Smart'
 tags: [News]
@@ -11,11 +11,15 @@ tags: [News]
 <!--more-->
 
 
-Our laboratory achieved remarkable success at the 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) held in Hangzhou from October 19 to 25, marking a fruitful journey of our research demonstration, academic paper presentation, and academic reunions.
+让AI为“星星的孩子”生成稳定、可信、符合物理规律的角色互动动画
 
 <img src=".\group.jpg"> 
 
-The highlight began on the first day of IROS EXPO, where our team hosted a dynamic booth for **“Air-Ground Cooperation without Global localization: RoFly and CubeTrack Cooperation with CREPES and CoNi-MPC”**. Thanks to the hard work and excellent technique skills from Zhehan Li, Jiajun Yu, Jiadong Lu, and other teammates, the live demonstration ran super successfully. We gave a demonstration every half hour, each time attracting great interest from researchers and industry professionals both domestically and internationally. The audience was particularly curious about how these two robots could achieve such efficient collaboration without SLAM inside. Jiadong Lu and Jiajun Yu enthusiastically explained CREPES and CoNi-MPC to them, revealing the secrets of the system.
+现有视频生成模型在孤独症儿童干预中存在三大硬伤：
+角色与空间关系不稳定（身份跳跃、社交距离混乱）
+逻辑断裂（动作不连贯、因果链条缺失）
+物理规则违背（物体违反重力、运动不可信）
+这些问题导致生成内容物理上不可信、逻辑上不连贯、认知上不匹配，难以用于真正的康复干预。
  
 <video width="320" height="240" autoplay loop muted >
       <source src="./expo_live.mp4"  type="video/mp4">
@@ -23,14 +27,18 @@ The highlight began on the first day of IROS EXPO, where our team hosted a dynam
 
 <img src=".\expoGroup1.jpg"> 
 
-
-On October 23rd in the Mapping track, Zhenyu Hou delivered an excellent oral presentation that sparked lively discussions among many **field robotics** experts. Terrain analysis is critical for deploying ground mobile robots in real-world tasks, especially in outdoor, unstructured environments. We propose a novel **spatio-temporal traversability assessment** method that enables autonomous robots to navigate complex terrains effectively. Our approach uses feature-based sparse Gaussian processes (FSGP) to extract geometric features (curvature, gradient, elevation, etc.) directly from point-cloud scans. Then we design a spatio-temporal Bayesian Gaussian kernel (BGK) inference method to dynamically evaluate traversability scores by integrating historical and real-time data while accounting for slope, flatness, gradient, and uncertainty. 
+本发明提出一种轻量级、无需额外训练的多角色动画生成方法，核心是在预训练的扩散模型中嵌入物理信息注意力模块，用热传导方程等物理先验约束生成过程。
 
 <img src=".\houzhenyuOral.jpg"> 
 
-Thanks to the IROS event, our team had the opportunity to have a pleasant reunion with the **MISTLab** team at Polytechnique Montréal, UdeM. We invited Professor **Giovanni Beltrame** and his team to visit our lab at the Huzhou Institute of Zhejiang University. We held a meeting to share our research mission and latest results. Junchen Chen presented his learning-based method for depth complementarity and feature matching with Time-of-Flight (ToF) sensors, which has gained great attention from Giovanni. Finally, we enjoyed a sumptuous barbecue dinner and Chinese Baijiu.
+技术流程
+构建干预条件：将自然语言指令转为结构化提示词 + 起始图像 + 角色掩码 → 统一条件向量
+冻结预训练模型：选用CogVideoX等基础生成器，保留其先验知识
+集成物理注意力：用热传导方程建模帧间演化，修改注意力机制，注入物理梯度引导
+物理正则化生成：多尺度约束 + 自适应引导 + 时序一致性监控 → 输出稳定动画
+多维评估：引入“干预意图对齐度”等专用指标，确保内容符合孤独症认知特点
 
 <img src=".\reunion.jpg"> 
 
-**About [MISTLab](https://mistlab.ca/):** The *Making Innovative Space Technology Lab* (MISTLab) at Polytechnique Montréal, led by Prof. Giovanni Beltrame, focuses on multi-robot systems and swarm robotics, autonomous perception–planning–control, embedded AI, and field deployments across aerial, ground, and space platforms. The group collaborates broadly with academia and industry and actively shares open-source tools and research outcomes with the community.
-
+为孤独症儿童构建一个稳定、可预测的视觉认知框架，显著提升其对社会角色互动、日常行为序列及情感表达的理解能力。可广泛应用于特殊教育、康复干预、社交故事生成等场景。
+本技术已申请发明专利（申请公布号：CN120563736A）
