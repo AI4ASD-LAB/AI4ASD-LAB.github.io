@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2026-5-22
 type: landing
 view: compact
 
@@ -11,7 +11,7 @@ sections:
       title:
       text: 
         <br>
-       Welcome to the **Field Autonomous System and Computing Lab (FAST Lab)** of Zhejiang University. Our mission is to create fully intelligent robot teams that are capable of operating in complex and diverse environments to tackle real-world challenges. We are fascinated by novel robotic concepts and excited about pushing the boundaries of robotics' potential to demonstrate remarkable capabilities. More specifically, our research interests cover multi-robot cooperation, novel robot platforms, and autonomous navigation.
+       欢迎来到 **AI for Autism** 实验室，我们的使命是推动人工智能技术在孤独症谱系障碍（ASD）领域的创新应用，打造能够理解、陪伴并辅助ASD个体的智能系统，切实回应现实世界中的教育与康复需求。我们对前沿的AI与交互技术充满热情，致力于拓展智能系统在特殊教育与人机协作中的边界，展现技术在人文关怀中的独特潜力。
       design:
         view: card
         columns: '1'
