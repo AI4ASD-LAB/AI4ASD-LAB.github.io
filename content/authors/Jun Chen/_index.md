@@ -44,7 +44,7 @@ social:
     link: 'mailto:jyl@zjhu.edu.cn'
   - icon: link
     icon_pack: fas
-    link: 'https://xxgcxy.zjhu.edu.cn/2021/0326/c819a68748/page.htm'
+    link: 'https://autoai.zjnu.edu.cn/zzjs/2025/0512/c19258a517850/page.psp'
 # (Google Scholar and other links not provided, so omitted; keep only the two icons as above)
 # - icon: google-scholar
 #   icon_pack: ai
