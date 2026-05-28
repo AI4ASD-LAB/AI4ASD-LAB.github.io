@@ -14,7 +14,7 @@ role: Lecturer
 
 # Organizations/Affiliations
 organizations:
-  - name: Zhejiang Normal University, College of Child Development and Education
+  - name: Zhejiang Normal University
     url: 'https://www.zjnu.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
