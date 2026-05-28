@@ -48,10 +48,7 @@ social:
 
 # Organizational groups that you belong to (for People widget)
 user_groups:
-  - Grad Students
-  # - Visitors
-  # - Engineers
-  # - Administration
+  - Students
 ---
 
 Xiandong Wu is a graduate student at Zhejiang Normal University. He received his Bachelor’s degree in Computer Science from the same university in 2023 and started his Master’s program in 2024. His research interests lie in AI multimodal generation, with a focus on generating illustrations for picture books designed for children with autism spectrum disorder (ASD). Specifically, he works on text-to-image generation models that can produce consistent, child-friendly, and emotionally supportive visual content. He aims to bridge the gap between generative AI and special education, exploring how controllable image synthesis can be used to create personalized interactive materials for autistic children.

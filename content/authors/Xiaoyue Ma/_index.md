@@ -49,7 +49,7 @@ highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
 user_groups:
-  - Grad Students
+  - Students
 ---
 
 Xiaoyue Ma is a master's candidate in Artificial Intelligence at Zhejiang Normal University. She received her Bachelor's degree from North China Electric Power University (Science and Technology College) in 2023 and started her master's program in 2024.
