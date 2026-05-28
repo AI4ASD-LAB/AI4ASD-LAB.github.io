@@ -1,41 +1,43 @@
 ---
-# 显示名称
-title: 蒋云良
+# Display name
+title: Yunliang Jiang 蒋云良
 
-# 全名（用于SEO）
-first_name: 云良
-last_name: 蒋
+# Full Name (for SEO)
+first_name: Yunliang
+last_name: Jiang
 
-# 是否为本站点的主要用户？
+# Is this the primary user of the site?
 superuser: false
 
-# 职务/角色
-role: 教授、党委书记
+# Role/position
+role: Professor and Party Secretary
 
-# 所属单位
+# Organizations/Affiliations
 organizations:
-  - name: 浙江师范大学
+  - name: Zhejiang Normal University
     url: 'https://www.zjnu.edu.cn/'
 
-# 个人简介（使用 | 保留换行，避免引号转义问题）
-bio: |
-  蒋云良，博士，博士生导师，现任浙江师范大学党委书记。曾任湖州师范学院校长、浙江师范大学校长。
-  入选国务院政府特殊津贴专家、浙江省“万人计划”杰出人才、浙江省“151”人才工程重点资助培养人选、
-  浙江省高校中青年学科带头人、浙江省高等学校教学名师。担任浙江省计算机学会常务理事、
-  浙江省本科高校计算机类专业教学指导委员会副主任委员。主要研究方向为深度学习、智慧交通、
-  智慧医疗和智能教育等。先后主持和参与国家和省部级科研项目13项，发表论文63篇，
-  出版学术著作2部，授权发明专利26项。获浙江省自然科学奖一等奖1项、
-  浙江省高等教育教学成果奖一等奖2项，作为主要成员获浙江省科技进步奖一等奖1项、
-  国家高等教育教学成果奖二等奖2项。
+# Short bio (displayed in user profile at end of posts)
+bio: My research interests include deep learning, intelligent transportation, smart healthcare, and intelligent education.
 
-# 研究方向
 interests:
-  - 深度学习
-  - 智慧交通
-  - 智慧医疗
-  - 智能教育
+  - Deep Learning
+  - Intelligent Transportation
+  - Smart Healthcare
+  - Intelligent Education
 
-# 社交/学术链接
+education:
+  courses:
+    # - course: PhD in ???
+    #   institution: ???
+    # - course: MEng in ???
+    #   institution: ???
+    # (Information not provided, left blank)
+
+# Social/Academic Networking
+# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
   - icon: envelope
     icon_pack: fas
@@ -43,14 +45,28 @@ social:
   - icon: link
     icon_pack: fas
     link: 'https://xxgcxy.zjhu.edu.cn/2021/0326/c819a68748/page.htm'
+# (Google Scholar and other links not provided, so omitted; keep only the two icons as above)
+# - icon: google-scholar
+#   icon_pack: ai
+#   link: 
 
-# 电子邮箱
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# - icon: cv
+#   icon_pack: ai
+#   link: files/cv.pdf
+
+# Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'jyl@zjhu.edu.cn'
 
-# 高亮作者名称
-highlight_name: true
+# Highlight the author in author lists? (true/false)
+highlight_name: false
 
-# 所属小组（用于People组件）
+# Organizational groups that you belong to (for People widget)
+#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - 成员
+  - Members
+
 ---
+
+Yunliang Jiang is a Professor and the Party Secretary of Zhejiang Normal University. He previously served as President of Huzhou University and President of Zhejiang Normal University. He is a recipient of the State Council Special Allowance, Zhejiang Provincial “Ten Thousand Talents Program” Outstanding Talent, and Zhejiang Provincial “151 Talent Project” Key Cultivation Candidate. He serves as Executive Director of Zhejiang Computer Federation and Vice Chair of the Computer Major Teaching Steering Committee for Zhejiang Undergraduate Universities. His research focuses on deep learning, intelligent transportation, smart healthcare, and intelligent education. He has led and participated in 13 national and provincial research projects, published 63 papers in journals such as *IEEE Transactions on Fuzzy Systems*, *IEEE Transactions on Intelligent Transportation Systems*, *IEEE Transactions on Systems, Man, and Cybernetics: Systems*, and Chinese journals including *Chinese Journal of Computers*, *Acta Electronica Sinica*, and *Acta Automatica Sinica*. He has authored 2 academic books and holds 26 invention patents. He received the First Prize of Zhejiang Natural Science Award (as lead), two First Prizes of Zhejiang Higher Education Teaching Achievement Award (as lead), and as a key member, one First Prize of Zhejiang Science and Technology Progress Award and two Second Prizes of National Higher Education Teaching Achievement Awards.
