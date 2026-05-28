@@ -58,7 +58,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Grad Students
+  - Students
 ---
 
 Xi Chen is a master's candidate in Artificial Intelligence at Zhejiang Normal University. He received his Bachelor's degree in Computer Science from Nanchang Hangkong University in 2024 and started his master's program in the same year.
