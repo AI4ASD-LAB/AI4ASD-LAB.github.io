@@ -1,7 +1,7 @@
 ---
-title: "面向孤独症儿童的多角色动画生成方法"
+title: "Multi-Character Animation Generation Method for Children with Autism Spectrum Disorder"
 subtitle:
-date: 2026-2-27
+date: 2026-02-27
 image:
   focal_point: 'Smart'
 tags: [News]
@@ -10,31 +10,36 @@ tags: [News]
 
 <!--more-->
 
+Enabling AI to generate stable, credible, and physically compliant character interaction animations for "children of the stars"
 
-让AI为“星星的孩子”生成稳定、可信、符合物理规律的角色互动动画
+<img src=".\group.jpg">
 
-<img src=".\group.jpg"> 
+Current video generation models have three major shortcomings in autism intervention:
+- Unstable character and spatial relationships (identity switching, disordered social distance)
+- Logical fragmentation (discontinuous actions, missing causal chains)
+- Violation of physical rules (objects defying gravity, implausible motion)
 
-现有视频生成模型在孤独症儿童干预中存在三大硬伤：
-角色与空间关系不稳定（身份跳跃、社交距离混乱）
-逻辑断裂（动作不连贯、因果链条缺失）
-物理规则违背（物体违反重力、运动不可信）
-这些问题导致生成内容物理上不可信、逻辑上不连贯、认知上不匹配，难以用于真正的康复干预。
- 
+These issues make the generated content physically untrustworthy, logically incoherent, and cognitively mismatched, rendering it unsuitable for real rehabilitation intervention.
 
+We propose a lightweight, training-free multi-character animation generation method. The core idea is to embed a physics-informed attention module into a pretrained diffusion model, using physical priors such as the heat equation to constrain the generation process.
 
-本发明提出一种轻量级、无需额外训练的多角色动画生成方法，核心是在预训练的扩散模型中嵌入物理信息注意力模块，用热传导方程等物理先验约束生成过程。
+**Technical Pipeline**
 
+1. **Intervention condition construction**  
+   Convert natural language instructions into structured prompts + initial image + character masks → unified condition vector
 
+2. **Freeze the pretrained model**  
+   Adopt a base generator like CogVideoX, preserving its prior knowledge
 
-技术流程
-构建干预条件：将自然语言指令转为结构化提示词 + 起始图像 + 角色掩码 → 统一条件向量
-冻结预训练模型：选用CogVideoX等基础生成器，保留其先验知识
-集成物理注意力：用热传导方程建模帧间演化，修改注意力机制，注入物理梯度引导
-物理正则化生成：多尺度约束 + 自适应引导 + 时序一致性监控 → 输出稳定动画
-多维评估：引入“干预意图对齐度”等专用指标，确保内容符合孤独症认知特点
+3. **Integrate physics-informed attention**  
+   Model inter-frame evolution using the heat equation, modify the attention mechanism, and inject physical gradient guidance
 
+4. **Physics-regularized generation**  
+   Multi-scale constraints + adaptive guidance + temporal consistency monitoring → output stable animation
 
+5. **Multi-dimensional evaluation**  
+   Introduce custom metrics such as "intervention intent alignment" to ensure content matches the cognitive characteristics of autism
 
-为孤独症儿童构建一个稳定、可预测的视觉认知框架，显著提升其对社会角色互动、日常行为序列及情感表达的理解能力。可广泛应用于特殊教育、康复干预、社交故事生成等场景。
-本技术已申请发明专利（申请公布号：CN120563736A）
+This method builds a stable and predictable visual cognitive framework for children with autism, significantly improving their understanding of social role interactions, daily behavior sequences, and emotional expressions. It can be widely applied in special education, rehabilitation intervention, social story generation, and related scenarios.
+
+A patent application has been filed for this technology (Publication No.: CN120563736A)
