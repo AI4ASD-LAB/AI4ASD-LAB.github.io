@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Juncheng Chen 陈俊成
+title: Xiandong Wu 吴贤东
 
 # Full name (for SEO)
-first_name: Juncheng
-last_name: Chen
+first_name: Xiandong
+last_name: Wu
 
 # Username (this should match the folder name)
 authors:
-  - 陈俊成
+  - 吴贤东
 
 # Is this the primary user of the site?
 superuser: false
@@ -18,42 +18,35 @@ role: Master
 
 # Organizations/Affiliations
 organizations:
-  - name: Zhejiang University
+  - name: Zhejiang Normal University
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests focus on 3D vision from multi-view and sensors.
+bio: My research interests focus on AI multimodal generation for picture books of children with autism, especially text-to-image generation.
 
 interests:
-  - Depth Completion
-  - Image Matching
-  - 3D Gaussian Splatting
+  - AI Multimodal Generation
+  - Text-to-Image Generation
+  - Special Education Technology
 
 education:
   courses:
-    - course: MPhil in Control Science and Technology
-      institution: Zhejiang University
-      year: 2023
-    - course: BSc in Aerospace Science and Technology
-      institution: Zhejiang University
-      year: 2019
+    - course: MSc in Artificial Intelligence (in progress)
+      institution: Zhejiang Normal University
+      year: 2024–present
+    - course: BSc in Computer Science
+      institution: Zhejiang Normal University
+      year: 2019–2023
 
 # Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
   - icon: envelope
     icon_pack: fas
-    link: '22332160@zju.edu.cn'
+    link: 'mailto:1828189800@qq.com'
   # - icon: google-scholar
   #   icon_pack: ai
-  #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  # - icon: github
-  #   icon_pack: fab
-  #   link: https://github.com/gcushen
+  #   link: https://scholar.google.co.uk/citations?user=...
 
 # Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Grad Students
   # - Visitors
@@ -61,6 +54,4 @@ user_groups:
   # - Administration
 ---
 
-Juncheng Chen is a graduate student in the FAST-FIRE Laboratory. His research interests lie in 3D vision across multiple views and sensors. During the first stage of his master’s studies, he focused on depth completion for ToF cameras in large-scale scenes (sensor-based 3D vision). In the second stage, his work shifted toward feed-forward 3D Gaussian Splatting (3DGS) tasks, including 3DGS-aware image matching and real-time feed-forward 3DGS reconstruction (multi-view 3D vision). His algorithm design emphasizes deployability in downstream robotic tasks.
-
-So far, he has completed two projects exploring a unified Real–Sim–Real methodology: data are first collected in the real world and reconstructed into high-fidelity realistic representations to generate training data, which are then used to train models applicable to real-world environments. The Real-to-Sim process brings the simulator closer to reality, providing greater flexibility and richer supervision signals for Sim-to-Real training within the simulator.
+Xiandong Wu is a graduate student at Zhejiang Normal University. He received his Bachelor’s degree in Computer Science from the same university in 2023 and started his Master’s program in 2024. His research interests lie in AI multimodal generation, with a focus on generating illustrations for picture books designed for children with autism spectrum disorder (ASD). Specifically, he works on text-to-image generation models that can produce consistent, child-friendly, and emotionally supportive visual content. He aims to bridge the gap between generative AI and special education, exploring how controllable image synthesis can be used to create personalized interactive materials for autistic children.
