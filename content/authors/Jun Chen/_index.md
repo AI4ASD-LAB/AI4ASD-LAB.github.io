@@ -1,67 +1,54 @@
----
-# Display name
-title: Chao Xu 许超
+# 显示名称
+title: 蒋云良
 
-# Full Name (for SEO)
-first_name: Chao
-last_name: aXu
+# 全名（用于SEO）
+first_name: 云良
+last_name: 蒋
 
-# Is this the primary user of the site?
+# 是否为本站点的主要用户？
 superuser: false
 
-# Role/position
-role: Full Professor
+# 职务/角色
+role: 教授、党委书记
 
-# Organizations/Affiliations
+# 所属单位
 organizations:
-  - name: Zhejiang University
-    url: 'http://hzi.zju.edu.cn/'
+  - name: 浙江师范大学
+    url: 'https://www.zjnu.edu.cn/'
 
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include Geometries and Control of Mechanical Systems,  Kinematic Agents and Cybernetics, Multi-Physics Driven Robotics, AI-Driven Science.
+# 个人简介（显示在页面底部）
+bio: 蒋云良，博士，博士生导师，现任浙江师范大学党委书记。曾任湖州师范学院校长、浙江师范大学校长。入选国务院政府特殊津贴专家、浙江省“万人计划”杰出人才、浙江省“151”人才工程重点资助培养人选、浙江省高校中青年学科带头人、浙江省高等学校教学名师。担任浙江省计算机学会常务理事、浙江省本科高校计算机类专业教学指导委员会副主任委员。主要研究方向为深度学习、智慧交通、智慧医疗和智能教育等。先后主持和参与国家和省部级科研项目13项，发表论文63篇，出版学术著作2部，授权发明专利26项。获浙江省自然科学奖一等奖1项、浙江省高等教育教学成果奖一等奖2项，作为主要成员获浙江省科技进步奖一等奖1项、国家高等教育教学成果奖二等奖2项。
 
+# 研究方向
 interests:
-  - Geometries and Control of Mechanical Systems
-  - Kinematic Agents and Cybernetics
-  - Multi-Physics Driven Robotics
-  - AI-Driven Science
+  - 深度学习
+  - 智慧交通
+  - 智慧医疗
+  - 智能教育
 
-education:
-  courses:
-    - course: PhD in Mechanical Engineering
-      institution: Lehigh University
-    - course: MEng in Operations Research and Cybernetics
-      institution: Zhejiang University
-    - course: BEng in Mechatronic Engineering
-      institution: Shenyang Aerospace University
+# 教育背景（原代码中未提供，如需要可自行补充）
+# education:
+#   courses:
+#     - course: 博士
+#       institution: 某某大学
+#     - course: 硕士
+#       institution: 某某大学
 
-# Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+# 社交/学术链接
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'cxu@zju.edu.cn'
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.com/citations?hl=en&user=IOCO-YQAAAAJ
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+    link: 'mailto:jyl@zjhu.edu.cn'          # 邮箱
+  - icon: link
+    icon_pack: fas
+    link: 'https://xxgcxy.zjhu.edu.cn/2021/0326/c819a68748/page.htm'   # 个人主页
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'cxu@zju.edu.cn'
+# 电子邮箱（用于Gravatar）
+email: 'jyl@zjhu.edu.cn'
 
-# Highlight the author in author lists? (true/false)
+# 在作者列表中高亮名称
 highlight_name: true
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
+# 所属小组（用于People小组件）
 user_groups:
-  - Members
----
-
-Chao Xu, Expert in the JW Technology Committee, Member of the Expert Group for a National Major Scientific and Technological Project, and Selected as a Leading Talent under Zhejiang Province's "Ten Thousand Talents Program," was honored with the 2024 Frontier Science Award in the category of Theoretical Computer Science and Information Science at the International Conference on Basic Sciences (ICBS). The ICBS, initiated by Professor Shing-Tung Yau, has previously recognized Nobel Prize in Physics laureates and Turing Award winners, including Geoffrey Hinton.Chao Xu is engaged in interdisciplinary research on "Cybernetics and Robotic Learning Systems," focusing on addressing national strategic needs and overcoming core technologies in intelligent control for unmanned system swarms. He has published groundbreaking results in top journals such as Science Robotics, Nature Machine Intelligence, Nature Communications, and Nature Biomedical Engineering, and was recognized in the Elsevier Global Top 2% Scientists List. He led the formulation of IEEE international standards for intelligent drones, which were adopted by the American National Standards Institute. Chao Xu founded the international journal IET Cyber-Systems & Robotics (ESCI indexed) and serves as Executive Editor-in-Chief. The swarm robotics developed under his leadership was featured in the "Striving for a New Era" National Achievements Exhibition and is permanently collected by the National Museum. Several of his research achievements have been prominently reported by national media, including CCTV's Into Key Labs, as well as Science and Technology Daily, Guangming Daily, CCTV Channel 2, Zhejiang Provincial News, and The Times.
+  - 成员
