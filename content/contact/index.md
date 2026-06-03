@@ -1,6 +1,6 @@
 ---
-title: Contact
-date: 2022-10-24
+title: contact
+date: 2026-06-01
 
 type: landing
 
@@ -9,13 +9,13 @@ sections:
     content:
       title: Contact
       text:
-        We are constantly enrolling highly motivated students/engineers both in our research lab and spin-off company. If you are interested, please send your resume and personal statement to the email address.      
-      email: FASTFIRE_admin@163.com
+        资源中心欢迎有志投身科研的学生与研发人员，有意者可后续联系     
+      email: junc.change@zjnu.edu.cn
       address:
-        street: No.819, Xisaishan Road
-        city: Huzhou City, Zhejiang
-        postcode: '313002'
-        country: China
+        street: 浙江师范大学杭州校区
+        city: 杭州市萧山区
+        postcode: '311231'
+        country: 中国
         country_code: CN
       #contact_links:
       #  - icon: comments
