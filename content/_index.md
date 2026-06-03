@@ -35,6 +35,7 @@ sections:
     design:
       view: card
       columns: '2'
+      summary_length: 1
 
   - block: markdown
     content:
