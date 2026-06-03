@@ -7,8 +7,22 @@ sections:
 
   - block: portfolio
     content:
+      title: "AI4asd"
+      subtitle: "专注研究AI面向孤独症."
+      #text: "Stay up to date with our latest news and insights"
+      filters:
+        folders: 
+          - groups
+        tags: [ai4asd]
+      count: 10
+      design:
+        view: "showcase"
+        columns: "3"
+
+  - block: portfolio
+    content:
       title: "Robotic Groups"
-      subtitle: "Research on autonomous navigation for robots."
+      subtitle: "Research on..."
       #text: "Stay up to date with our latest news and insights"
       count: 10
       filters:
@@ -20,18 +34,6 @@ sections:
         background:
           color: "gray-50"
 
-  - block: portfolio
-    content:
-      title: "AI4Science"
-      subtitle: "Research on machine learning."
-      #text: "Stay up to date with our latest news and insights"
-      filters:
-        folders: 
-          - groups
-        tags: [ai4science]
-      count: 10
-      design:
-        view: "showcase"
-        columns: "3"
+
 
 ---
