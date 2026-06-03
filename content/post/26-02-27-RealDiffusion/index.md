@@ -5,12 +5,12 @@ date: 2026-02-27
 image:
   focal_point: 'Smart'
 tags: [科研动态,CVPR,AI生成,动画生成,自闭症康复]
-
+summary: 依托CVPR收录工作RealDiffusion，基于热传导物理先验注意力机制实现多角色连贯故事动画生成，落地自闭症儿童康复动画制作场景
 ---
 
-<!--more-->
-
 依托CVPR收录工作RealDiffusion，基于热传导物理先验注意力机制实现多角色连贯故事动画生成，落地自闭症儿童康复动画制作场景。
+
+<!--more-->
 
 <video width="320" height="240" autoplay loop muted >
       <source src="./expo_live.mp4"  type="video/mp4">
