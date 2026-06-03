@@ -11,7 +11,7 @@ authors:
 # 作者备注（*为通讯作者）
 author_notes:
 - ""
-- "Corresponding Author"
+- "通讯作者"
 
 date: '2026-02-27'
 doi: ''
