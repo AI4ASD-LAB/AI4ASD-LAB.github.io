@@ -14,9 +14,9 @@ sections:
         欢迎来到 **AI for Autism** 实验室，我们的使命是推动人工智能技术在孤独症谱系障碍（ASD）领域的创新应用，打造能够理解、陪伴并辅助ASD个体的智能系统，切实回应现实世界中的教育与康复需求。我们对前沿的AI与交互技术充满热情，致力于拓展智能系统在特殊教育与人机协作中的边界，展现技术在人文关怀中的独特潜力。
         <br>
         <div style="width: 100%; max-width: 900px; margin: 0 auto;">
-          <video autoplay muted loop playsinline style="width: 100%; border-radius: 16px;">
-            <source src="/static/uploads/expo_live.mp4" type="video/mp4">
-          </video>
+           <video autoplay muted loop playsinline style="width: 100%; border-radius: 16px; height:auto; object-fit: contain;">
+             <source src="/uploads/expo_live.mp4" type="video/mp4">
+           </video>
         </div>
         <br>
     design:
