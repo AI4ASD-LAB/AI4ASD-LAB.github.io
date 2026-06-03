@@ -1,45 +1,49 @@
 ---
-title: "Multi-Character Animation Generation Method for Children with Autism Spectrum Disorder"
-subtitle:
+title: "RealDiffusion：基于物理先验注意力的多角色绘本序列动画生成"
+subtitle: CVPR Findings | 免训练多角色人物一致性生成方案
 date: 2026-02-27
 image:
   focal_point: 'Smart'
-tags: [News]
+tags: [科研动态,CVPR,AI生成,动画生成,自闭症康复]
 
 ---
 
 <!--more-->
 
-Enabling AI to generate stable, credible, and physically compliant character interaction animations for "children of the stars"
+依托CVPR收录工作RealDiffusion，基于热传导物理先验注意力机制实现多角色连贯故事动画生成，落地自闭症儿童康复动画制作场景。
 
-<img src=".\group.jpg">
+<video width="320" height="240" autoplay loop muted >
+      <source src="./expo_live.mp4"  type="video/mp4">
+</video>
 
-Current video generation models have three major shortcomings in autism intervention:
-- Unstable character and spatial relationships (identity switching, disordered social distance)
-- Logical fragmentation (discontinuous actions, missing causal chains)
-- Violation of physical rules (objects defying gravity, implausible motion)
+## 项目概述
+现有扩散模型生成多帧故事动画普遍存在两大痛点：人物身份错乱、角色特征漂移、画面动作不连贯，难以适配特殊儿童认知康复素材生产需求。
 
-These issues make the generated content physically untrustworthy, logically incoherent, and cognitively mismatched, rendering it unsuitable for real rehabilitation intervention.
+本文提出RealDiffusion免训练框架，在预训练扩散模型中嵌入物理感知注意力模块，依靠热传导方程约束时序特征，兼顾角色一致性与故事动态变化，无需微调模型权重，轻量化嵌入现有生成管线。
 
-We propose a lightweight, training-free multi-character animation generation method. The core idea is to embed a physics-informed attention module into a pretrained diffusion model, using physical priors such as the heat equation to constrain the generation process.
+<img src="./group.jpg">
 
-**Technical Pipeline**
+## 核心原理
+1. **动态掩码自动生成**：利用交叉注意力逐帧生成人物区域掩码，精准约束角色特征。
+2. **双内核物理算子**：通过热扩散平滑帧间变化，保证角色身份稳定；同时保留动作动态性。
+3. **物理感知注意力机制**：从模型底层保障角色身份统一、时序画面连贯。
+4. **全局平衡参数**：自由权衡“角色一致性”与“动作自由度”。
 
-1. **Intervention condition construction**  
-   Convert natural language instructions into structured prompts + initial image + character masks → unified condition vector
+<img src="./liu.jpg">
 
-2. **Freeze the pretrained model**  
-   Adopt a base generator like CogVideoX, preserving its prior knowledge
+## 图片说明
+- group.jpg：多风格故事样例效果图（吉卜力、中式国风、美式漫画）
+- framework.png：网络框架结构图
+- mask.png：人物动态掩码示意图
+- comparison.png：与主流方法效果对比图
+- ablation.png：物理先验与参数消融实验图
 
-3. **Integrate physics-informed attention**  
-   Model inter-frame evolution using the heat equation, modify the attention mechanism, and inject physical gradient guidance
+## 实验效果
+在300组多角色测试集上，RealDiffusion在角色相似度、故事连贯性、时序规整度指标均超越现有方案，推理速度快、显存占用低。
 
-4. **Physics-regularized generation**  
-   Multi-scale constraints + adaptive guidance + temporal consistency monitoring → output stable animation
+<img src="./xiaoguo.jpg">
 
-5. **Multi-dimensional evaluation**  
-   Introduce custom metrics such as "intervention intent alignment" to ensure content matches the cognitive characteristics of autism
+## 应用场景
+可用于自闭症儿童康复训练、特殊教育、社交故事生成、视觉认知干预等场景。
 
-This method builds a stable and predictable visual cognitive framework for children with autism, significantly improving their understanding of social role interactions, daily behavior sequences, and emotional expressions. It can be widely applied in special education, rehabilitation intervention, social story generation, and related scenarios.
-
-A patent application has been filed for this technology (Publication No.: CN120563736A)
+本技术已申请发明专利（公开号：CN120563736A）
